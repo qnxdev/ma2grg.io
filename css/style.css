@@ -24,9 +24,6 @@ body {
   display: flex;
   flex-grow: 1;
   background-image: linear-gradient(to right, #fafafa, #bbb); }
-  @media screen and (max-width: 700px) {
-    .main {
-      flex-direction: column; } }
 
 .cta {
   height: 100%;
@@ -85,3 +82,31 @@ body {
 .footer {
   height: 3.5rem;
   background-color: #111; }
+
+@media screen and (max-width: 700px) {
+  .main {
+    flex-direction: column; }
+  .btn {
+    font-size: 2rem;
+    min-width: 23rem; }
+  .photo {
+    flex: 1 0 0;
+    position: relative;
+    margin-top: 45rem; }
+    .photo img {
+      width: 90%;
+      height: auto;
+      position: absolute; }
+  .cta {
+    margin-top: 9rem; }
+    .cta .about {
+      margin-bottom: 7rem; }
+      .cta .about-secondary, .cta .about-primary {
+        font-size: 3.6rem; }
+      .cta .about-secondary {
+        margin-bottom: -1.9rem; }
+    .cta .social-media .links a {
+      margin-right: 1rem; }
+    .cta .social-media .links-text {
+      margin-top: -1rem;
+      font-size: 1.5rem; } }
