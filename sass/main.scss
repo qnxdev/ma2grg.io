@@ -16,7 +16,7 @@ html {
 
 body {
     font-family: $font-primary;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.6;
 }
 
@@ -29,7 +29,7 @@ body {
 .main {
     display: flex;
     flex-grow: 1;
-    background-image: linear-gradient(to right, #fff, #bbb);
+    background-image: linear-gradient(to right, #fafafa, #bbb);
     @media screen and (max-width: 700px) {
         flex-direction: column;
     }
@@ -49,13 +49,18 @@ body {
         flex-direction: column;
         justify-content: flex-end;
 
-        letter-spacing: 3px;
+        &-secondary,
+        &-primary {
+            font-size: 7rem;
+        }
+
         &-secondary {
-            font-weight: 300;
+            font-weight: 400;
+            margin-bottom: -4rem;
         }
         &-primary {
-            font-weight: 600;
-            margin-bottom: 1rem;
+            font-weight: 800;
+            letter-spacing: 0.1rem;
         }
     }
 
@@ -68,14 +73,14 @@ body {
         justify-content: center;
         .links {
             a {
-                color: #000;
+                color: #111111;
                 text-decoration: none;
                 font-size: 3rem;
                 margin-right: 1.5rem;
             }
 
             &-text {
-                font-size: 1.5rem;
+                font-size: 1.7rem;
             }
         }
     }
@@ -94,14 +99,16 @@ body {
 }
 
 .btn {
-    background-color: #fff;
+    background: transparent;
     padding: 1rem 2.5rem;
     border: 2px solid #bbb;
     font-weight: 100;
+    font-size: 4rem;
     align-self: start;
+    min-width: 42rem;
 }
 
 .footer {
     height: 3.5rem;
-    background-color: #000;
+    background-color: #111;
 }

@@ -12,7 +12,7 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.6; }
 
 .container {
@@ -23,7 +23,7 @@ body {
 .main {
   display: flex;
   flex-grow: 1;
-  background-image: linear-gradient(to right, #fff, #bbb); }
+  background-image: linear-gradient(to right, #fafafa, #bbb); }
   @media screen and (max-width: 700px) {
     .main {
       flex-direction: column; } }
@@ -39,13 +39,15 @@ body {
     flex: 1 0 0;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    letter-spacing: 3px; }
+    justify-content: flex-end; }
+    .cta .about-secondary, .cta .about-primary {
+      font-size: 7rem; }
     .cta .about-secondary {
-      font-weight: 300; }
+      font-weight: 400;
+      margin-bottom: -4rem; }
     .cta .about-primary {
-      font-weight: 600;
-      margin-bottom: 1rem; }
+      font-weight: 800;
+      letter-spacing: 0.1rem; }
   .cta .social-media {
     flex: 1 0 0;
     width: 75%;
@@ -54,12 +56,12 @@ body {
     flex-direction: column;
     justify-content: center; }
     .cta .social-media .links a {
-      color: #000;
+      color: #111111;
       text-decoration: none;
       font-size: 3rem;
       margin-right: 1.5rem; }
     .cta .social-media .links-text {
-      font-size: 1.5rem; }
+      font-size: 1.7rem; }
 
 .photo {
   flex: 1 0 0;
@@ -72,12 +74,14 @@ body {
     right: 0; }
 
 .btn {
-  background-color: #fff;
+  background: transparent;
   padding: 1rem 2.5rem;
   border: 2px solid #bbb;
   font-weight: 100;
-  align-self: start; }
+  font-size: 4rem;
+  align-self: start;
+  min-width: 42rem; }
 
 .footer {
   height: 3.5rem;
-  background-color: #000; }
+  background-color: #111; }
