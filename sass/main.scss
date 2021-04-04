@@ -98,7 +98,7 @@ body {
 .btn {
     background: transparent;
     padding: 1rem 2.5rem;
-    border: 2px solid #bbb;
+    border: 2px solid #111111;
     font-weight: 100;
     font-size: 4rem;
     align-self: start;
@@ -128,14 +128,13 @@ body {
             width: 90%;
             height: auto;
             position: absolute;
-            // bottom: 0;
-            // right: 0;
         }
     }
 
     .cta {
         margin-top: 9rem;
         .about {
+            width: 86%;
             margin-bottom: 7rem;
             &-secondary,
             &-primary {
@@ -150,6 +149,7 @@ body {
         }
 
         .social-media {
+            width: 86%;
             .links {
                 a {
                     margin-right: 1rem;

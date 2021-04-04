@@ -73,7 +73,7 @@ body {
 .btn {
   background: transparent;
   padding: 1rem 2.5rem;
-  border: 2px solid #bbb;
+  border: 2px solid #111111;
   font-weight: 100;
   font-size: 4rem;
   align-self: start;
@@ -100,13 +100,16 @@ body {
   .cta {
     margin-top: 9rem; }
     .cta .about {
+      width: 86%;
       margin-bottom: 7rem; }
       .cta .about-secondary, .cta .about-primary {
         font-size: 3.6rem; }
       .cta .about-secondary {
         margin-bottom: -1.9rem; }
-    .cta .social-media .links a {
-      margin-right: 1rem; }
-    .cta .social-media .links-text {
-      margin-top: -1rem;
-      font-size: 1.5rem; } }
+    .cta .social-media {
+      width: 86%; }
+      .cta .social-media .links a {
+        margin-right: 1rem; }
+      .cta .social-media .links-text {
+        margin-top: -1rem;
+        font-size: 1.5rem; } }
