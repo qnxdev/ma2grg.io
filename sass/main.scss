@@ -48,12 +48,12 @@ body {
 
         &-secondary,
         &-primary {
-            font-size: 7rem;
+            font-size: 5rem;
         }
 
         &-secondary {
             font-weight: 400;
-            margin-bottom: -4rem;
+            margin-bottom: -3rem;
         }
         &-primary {
             font-weight: 800;
@@ -87,7 +87,7 @@ body {
     flex: 1 0 0;
     position: relative;
     img {
-        width: 90%;
+        width: 85%;
         height: auto;
         position: absolute;
         bottom: 0;
@@ -100,9 +100,9 @@ body {
     padding: 1rem 2.5rem;
     border: 2px solid #111111;
     font-weight: 100;
-    font-size: 4rem;
+    font-size: 3rem;
     align-self: start;
-    min-width: 42rem;
+    min-width: 32rem;
 
     &:active,
     &:hover,
